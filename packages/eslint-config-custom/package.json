@@ -1,15 +1,26 @@
 {
   "name": "eslint-config-custom",
-  "version": "0.0.0",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "license": "MIT",
-  "dependencies": {
-    "eslint-config-next": "^13.4.1",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-react": "7.28.0",
-    "eslint-config-turbo": "^1.9.3"
-  },
+  "main": "base.js",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@babel/eslint-parser": "^7.22.9",
+    "@typescript-eslint/eslint-plugin": "^6.2.1",
+    "@typescript-eslint/parser": "^6.2.1",
+    "eslint": "^8.46.0",
+    "eslint-config-next": "^13.4.12",
+    "eslint-config-prettier": "^8.9.0",
+    "eslint-config-stylelint": "^19.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-css": "^0.8.1",
+    "eslint-plugin-jest": "^27.2.3",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "7.28.0",
+    "eslint-plugin-tailwindcss": "^3.13.0",
+    "eslint-config-turbo": "^1.9.3"
   }
 }

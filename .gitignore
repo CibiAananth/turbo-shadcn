@@ -32,5 +32,8 @@ yarn-error.log*
 # turbo
 .turbo
 
+# editor
+.history
+
 # ui
 dist/
