@@ -1,9 +1,9 @@
-import { Button } from 'neon/button';
+import { Button } from 'ui';
 
 export default function Home() {
   return (
-    <div>
-      <Button>as</Button>
+    <div className="p-5">
+      <Button>As it was</Button>
     </div>
   );
 }
