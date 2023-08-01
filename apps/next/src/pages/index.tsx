@@ -1,3 +1,9 @@
+import { Button } from 'neon/button';
+
 export default function Home() {
-  return <div>as</div>;
+  return (
+    <div>
+      <Button>as</Button>
+    </div>
+  );
 }

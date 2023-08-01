@@ -43,7 +43,16 @@ module.exports = {
       parser: '@typescript-eslint/parser',
     },
   ],
-  ignorePatterns: ['.eslintrc.js', '**/*.json'],
+  ignorePatterns: [
+    '/*',
+    '!/src',
+    '!/test',
+    '!/node_modules',
+    '!/dist',
+    '!/coverage',
+    '!/public',
+    '!/app',
+  ],
   settings: {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts'],

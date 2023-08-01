@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -51,7 +51,7 @@
   }
 
   .font-inter {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
   }
 }
 
@@ -67,6 +67,11 @@
 
 @layer base {
   * {
+    @apply border-border;
     @apply font-inter;
+  }
+
+  body {
+    @apply bg-background text-foreground;
   }
 }
