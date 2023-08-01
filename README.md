@@ -1,14 +1,4 @@
-# Turborepo Tailwind CSS starter
-
-This is an official starter Turborepo.
-
-## Using this example
-
-Run the following command:
-
-```sh
-npx create-turbo@latest -e with-tailwind
-```
+# Turborepo shadcn ui Starter
 
 ## What's inside?
 
@@ -16,30 +6,18 @@ This Turborepo includes the following packages/apps:
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org/) app with [Tailwind CSS](https://tailwindcss.com/)
-- `web`: another [Next.js](https://nextjs.org/) app with [Tailwind CSS](https://tailwindcss.com/)
-- `ui`: a stub React component library with [Tailwind CSS](https://tailwindcss.com/) shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
+- `next`: another [Next.js](https://nextjs.org/) app with [Tailwind CSS](https://tailwindcss.com/) (includes `packages/neon`)
+- `neon`: a stub React component library with [Shadcn UI](https://ui.shadcn.com/) and 
+- `eslint-config-custom`: custom `eslint` configurations
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
+- `tailwind-config`: a shared `tailwind.config.js` for all apps and packages
+- `prettier-config-custom`: a shared `prettier.config.js` for all apps and packages
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
-### Building packages/ui
+### Building packages/neon
 
-This example is setup to build `packages/ui` and output the transpiled source and compiled styles to `dist/`. This was chosen to make sharing one `tailwind.config.js` as easy as possible, and to ensure only the CSS that is used by the current application and its dependencies is generated.
-
-Another option is to consume `packages/ui` directly from source without building. If using this option, you will need to update your `tailwind.config.js` to be aware of your package locations, so it can find all usages of the `tailwindcss` class names.
-
-For example, in [tailwind.config.js](packages/tailwind-config/tailwind.config.js):
-
-```js
-  content: [
-    // app content
-    `src/**/*.{js,ts,jsx,tsx}`,
-    // include packages if not transpiling
-    "../../packages/**/*.{js,ts,jsx,tsx}",
-  ],
-```
+This example is setup to build `packages/neon` and output the transpiled source and compiled styles to `dist/`.
 
 ### Utilities
 
