@@ -4,7 +4,7 @@ import { buttonVariants } from 'neon';
 
 import { cn } from '@/lib/utils';
 
-import { UserAuthForm } from './user-auth-form';
+import UserAuthForm from './user-auth-form';
 
 export const metadata: Metadata = {
   title: 'Authentication',

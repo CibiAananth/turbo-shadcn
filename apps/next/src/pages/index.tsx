@@ -1,4 +1,4 @@
-import { Button } from 'neon/button';
+import { Button } from 'neon';
 
 export default function Home() {
   return (

@@ -47,14 +47,7 @@
     "typescript": "^5.1.6"
   },
   "exports": {
-    "./style.css": "./dist/index.css",
-    ".": {
-      "import": "./dist/index.mjs",
-      "types": "./dist/index.d.ts"
-    },
-    "./button": {
-      "import": "./dist/components/button.mjs",
-      "types": "./dist/components/button.d.ts"
-    }
+    ".": "./dist/index.mjs",
+    "./styles.css": "./dist/styles.css"
   }
 }

@@ -6,7 +6,8 @@
     "dev": "next dev --port 9000",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "clean": "git clean -xdf .turbo node_modules .next .cache tsconfig.tsbuildinfo"
   },
   "dependencies": {
     "class-variance-authority": "^0.6.1",

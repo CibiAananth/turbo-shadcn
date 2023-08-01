@@ -4,6 +4,9 @@
   "private": true,
   "license": "MIT",
   "main": "base.js",
+  "scripts": {
+    "clean": "git clean -xdf .turbo node_modules"
+  },
   "publishConfig": {
     "access": "public"
   },
