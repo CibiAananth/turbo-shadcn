@@ -8,8 +8,10 @@
     "clean": "turbo clean"
   },
   "devDependencies": {
-    "turbo": "latest",
-    "prettier-config-custom": "workspace:*"
+    "prettier-config-custom": "workspace:*",
+    "stylelint": "^15.10.2",
+    "stylelint-config-custom": "workspace:*",
+    "turbo": "latest"
   },
   "packageManager": "pnpm@8.6.10"
 }
